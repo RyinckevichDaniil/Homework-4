@@ -18,3 +18,5 @@ function xmasTree(pyramidHeight, symbol) {
 
 // Check your code
 console.log(xmasTree(5, '*'));
+
+module.exports = { xmasTree };
