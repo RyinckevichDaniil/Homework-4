@@ -7,11 +7,6 @@ function xmasTree(pyramidHeight, symbol) {
       let row = '';
       for (j = 1; j <= i; j++) {
         row = row += '*';
-        // let t = '';
-        // while (t = j) {
-        //   row = row += ' ';
-        //   t++
-        // }
       }
       xmas = xmas += row + '\n';
     }
